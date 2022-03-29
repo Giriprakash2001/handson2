@@ -1,0 +1,134 @@
+.header-items {
+  display: flex;
+}
+.header-right {
+  display: flex;
+}
+
+.header-item1 {
+  font-size: 20px;
+}
+.header-item2 {
+  margin-left: 61px;
+  font-size: 20px;
+}
+.header-item3 {
+  margin-left: 36px;
+  font-size: 2px;
+}
+.header-item4 {
+  margin-left: 49px;
+  font-size: 23px;
+}
+.glyphicon-triangle-bottom {
+  font-size: 17px;
+}
+@media (max-width: 768px) {
+  .header-item1 {
+    font-size: 12px;
+  }
+  .glyphicon-triangle-bottom {
+    font-size: 10px;
+  }
+}
+@media (max-width: 425px) {
+  .glyphicon-triangle-bottom {
+    font-size: 0px;
+  }
+  .header-item1 {
+    font-size: 0px;
+  }
+}
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 576px) {
+  .quote {
+    font-size: 15px;
+    margin-top: 23px;
+
+    color: blue;
+  }
+  .advance-text {
+    display: inline-block;
+  }
+  .flex-directions {
+    flex-direction: column;
+  }
+  .card-img-top {
+    width: 290px;
+  }
+}
+
+.cognizant-helps {
+  font-size: 30px;
+  margin-top: 23px;
+  /* margin-left: 30px; */
+  color: blue;
+  width: 100%;
+}
+
+.Advance {
+  color: white;
+  font-size: 29px;
+}
+.Continuously {
+  color: white;
+  font-size: 20px;
+  margin-top: 35px;
+}
+
+.cf {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+@media (max-width: 200px) {
+  .cf {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 3%;
+  }
+}
+
+.six-image {
+  border-radius: 25px;
+}
+
+.ca_h,
+.ca_p {
+  color: white;
+}
+
+.imgg {
+  object-fit: cover;
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+
+.anything {
+  background-image: url("https://www.cognizant.com/content/dam/cognizant/en_us/dotcom/images/outreach-banner-tab.jpg");
+  width: 100%;
+  display: flex;
+  height: 350px;
+  align-items: center;
+}
+
+.nav-link {
+  color: black;
+}
